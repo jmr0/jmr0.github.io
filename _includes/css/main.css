@@ -11,10 +11,16 @@ body {
 
 p {
     font-size: 20px;
+    font-size: 24px;
 }
 
 p.small {
     font-size: 16px;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 18px;
 }
 
 a,
@@ -478,4 +484,18 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#img-section {
+    display: table;
+    margin: 0 auto;
+}
+
+#img-section img {
+    margin: 0 auto;
+}
+
+#img-section figcaption {
+   font-style: italic; 
+   size: .8em;
 }
