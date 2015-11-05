@@ -3,7 +3,7 @@ title: Jose Rosello
 email: work@rosello.me
 url: http://www.rosello.me
 description: "Personal website of Jose Rosello, New York-based software developer"
-skills: "Software Developer"
+skills: "Software Developer - Web Designer"
 meta_author: Rosello Jose
 
 # Google webmaster tools
@@ -39,7 +39,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: ""
+  - line: "work@rosello.me"
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
