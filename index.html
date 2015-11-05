@@ -2,18 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jose Rosello | Software Developer</title>
-  <meta name="description" content="Personal website of Jose Rosello, software developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal site of Jose Rosello, software developer">
   <meta name="author" content="Jose Rosello">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <title>Jose Rosello | Software Developer</title>
+  <link rel="stylesheet" href="scss/styles.css?v=1.0">
   <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>Jose Rosello</h1>
-  <script src="js/scripts.js"></script>
+    <nav class="navbar navbar-default navbar-static-top hero">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">Work</a></li>
+            <li><a href="#contact">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div id="content">
+        <section id="intro">
+            <h1>SOFTWARE DEVELOPER</h1>
+            <h2>Say Hello</h2>
+        </section>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

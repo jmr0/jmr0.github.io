@@ -1,0 +1,25 @@
+---
+---
+
+//@import "variables";
+//@import "bootswatch";
+@import "bootstrap";
+
+$body-bg: #F5F5F5;
+body {
+    ///background-color: $body-bg;
+}
+
+#intro {
+    background: #444 url("http://placekitten.com/g/1400/700") no-repeat scroll center center / cover;
+    overflow: hidden;
+    position: relative;
+    top: -60px;
+    padding:100px;
+}
+
+.navbar.hero {
+    background: transparent none repeat scroll 0% 0%;
+    margin:0;
+    border-bottom:0;
+}
