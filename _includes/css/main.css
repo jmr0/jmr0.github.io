@@ -1,4 +1,5 @@
 /*!
+ * This site was inspired by:
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -46,9 +47,29 @@ hr.star-primary {
     text-align: center;
 }
 
+
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
+}
+
+hr.qn-light:after,
+hr.qn-primary:after {
+    content: "\f128" !important;
+}
+
+hr.cog-light:after,
+hr.cog-primary:after {
+    content: "\f013" !important;
+}
+
+hr.pencil-light:after,
+hr.pencil-primary:after {
+    content: "\f040" !important;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -171,7 +192,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -196,7 +217,7 @@ section.success {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    /*margin: 0 0 15px;*/
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -247,7 +268,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        /*margin: 0 0 30px;*/
     }
 }
 
@@ -344,7 +365,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #000 !important;
 }
 
 .btn-social {
