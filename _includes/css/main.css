@@ -489,6 +489,7 @@ footer .footer-below {
 #img-section {
     display: table;
     margin: 0 auto;
+    text-align:center;
 }
 
 #img-section img {
