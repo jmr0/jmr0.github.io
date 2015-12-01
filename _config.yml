@@ -1,7 +1,7 @@
 # Site settings
 title: Jose Rosello
 email: work@rosello.me
-url: http://jose.rosello.me
+url: http://rosello.me
 description: "Personal website of Jose Rosello, New York-based software developer"
 skills: "Software Developer - Web Designer"
 meta_author: Rosello Jose
@@ -32,10 +32,10 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/jrosello1
   - title: github
     url: http://github.com/jmr0
+  - title: linkedin
+    url: https://www.linkedin.com/in/jrosello1
 
 # Postal address (add as many lines as necessary)
 address:
