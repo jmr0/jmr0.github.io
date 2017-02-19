@@ -4,7 +4,6 @@ modal-id: 1
 date: 2015-10-04
 img: cgac_hi_res.png
 alt: Coral Gables Art Cinema logo
-project-date: Fall 2015
 client: Coral Gables Art Cinema
 client-website: "http://www.gablescinema.com"
 category: Web Development
